@@ -19,7 +19,7 @@ if ops == 'mac':
     """
     print(tbhfetchout)
 
-if ops == 'arch':
+elif ops == 'arch':
     ops = "\033[35mtbh, arch linux\033[0m"
     if de == "kde": de = "KDE Plasma"
     de = f"\033[35mtbh, {de}\033[0m"
@@ -35,7 +35,7 @@ if ops == 'arch':
     """
     print(tbhfetchout)
 
-if ops == 'linux':
+elif ops == 'linux':
     ops = f"\033[94mtbh, {linuxdistro}\033[0m"
     if de == "kde": de = "KDE Plasma"
     de = f"\033[94mtbh, {de}\033[0m"
@@ -48,5 +48,22 @@ if ops == 'linux':
 \033[33m| |\033[0m                         {de}
 \033[33m| |____________\033[0m
 \033[33m(______________|\033[0m            \033[94mtbh, {mdl}\033[0m
+    """
+    print(tbhfetchout)
+
+else:
+    ops = f"\033[35mtbh, {ops}\033[0m"
+    if de == "kde": de = "KDE Plasma"
+    de = f"\033[35mtbh, {de}\033[0m"
+    mdl = platform.platform()
+    tbhfetchout = f"""
+ \033[96m _   _     _     
+ \033[95m| | | |   | |                {ops}
+ \033[94m| |_| |__ | |__  
+ \033[93m| __| '_ \| '_ \             {de}
+ \033[92m| |_| |_) | | | |
+  \033[91m\__|_.__/|_| |_|            \033[94mtbh, {mdl}\033[0m
+                  
+                  
     """
     print(tbhfetchout)
