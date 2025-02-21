@@ -4,3 +4,4 @@ de = "mac"
 """list of supported os's"""
 # macos
 # arch
+# linux
