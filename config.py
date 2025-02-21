@@ -1,6 +1,6 @@
-ops = "arch"
+ops = "mac"
 linuxdistro = "" #leave blank if not already listed
-de = "kde"
+de = "mac"
 """list of supported os's"""
 # macos
 # arch
