@@ -71,6 +71,22 @@ change it to either:
  - linux
 if you chose linux type your distro in the <code>linuxdistro</code> variable.
 
+#####
+Now its time to insert the following into your <code>~/.bashrc</code> file or your <code>~/.zshrc</code> file.
+
+###
+first open nano or vim:
+<pre>
+nano ~/.bashrc
+</pre>
+then insert the following at the very bottom of the file:
+<pre>
+alias tbhfetch='python3 ~/tbhfetch/tbhfetch.py'
+</pre>
+
+###
+Now test it by typing <code>tbhfetch</code> into the terminal
+
 ###
 kde is the only currently suppoted DE anything else will deafault to its text.
 </div>
