@@ -72,6 +72,5 @@ change it to either:
 if you chose linux type your distro in the <code>linuxdistro</code> variable.
 
 ###
-> [!NOTE]
-> kde is the only currently suppoted DE anything else will deafault to its text.
+kde is the only currently suppoted DE anything else will deafault to its text.
 </div>
