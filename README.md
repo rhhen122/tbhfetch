@@ -43,7 +43,7 @@ Git - to install - (<a href="https://git-scm.com/">git website.</a>)
 <div align="left">
 Copy The following into your terminal
 <pre>
-git clone https://github.com/rhhen122/tbhfetch ~/
+git clone https://github.com/rhhen122/tbhfetch ~/tbhfetch
 cd ~/tbhfetch/
 rm -f config-file.png
 rm -f install-file.png
