@@ -72,7 +72,7 @@ change it to either:
 if you chose linux type your distro in the <code>linuxdistro</code> variable.
 
 #####
-Now its time to insert the following into your <code>~/.bashrc</code> file or your <code>~/.zshrc</code> file.
+Now its time to insert the following into your <code>.bashrc</code> file or your <code>.zshrc</code> file.
 
 ###
 first open nano or vim:
