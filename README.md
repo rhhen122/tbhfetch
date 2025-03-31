@@ -1,6 +1,6 @@
 <div align="center">
 <img src="tbhfetch.png" height="70">
-<h2>tbhfetch 🐍</h2>
+<h2><u>tbhfetch</u> 🐍</h2>
 <img src="https://badgen.net/static/Python/3.13.2/green">
 |
 <img src="https://badgen.net/static/tbhfetch/Uses%20GIT/red?icon=git">
@@ -66,9 +66,17 @@ cd ~/tbhfetch
 nano config.py
 </pre>
 change it to either:
+
+###
  - mac
+
+###
  - arch
+
+###
  - linux
+
+###
 if you chose linux type your distro in the <code>linuxdistro</code> variable.
 
 #####
